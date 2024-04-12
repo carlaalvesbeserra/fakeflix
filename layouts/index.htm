@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FakeFlix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: url(bg.jpg);
+            font-size: 18pt;
+            color: white;
+        }
+        h1 {
+            color: red;
+            font-weight: bolder;
+            font-size: 30pt;
+            font-family: 'Bebas Neue', sans-serif; 
+            padding: 20px 120px;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.593);
+            height: 100px;
+            margin-bottom: 150px;
+        }
+        #div-btn {
+            text-align: right;
+            display: flexbox;
+            margin: -60px 100px;
+        }
+        #btn-entrar {
+            color: white;
+            font-size: 12pt;
+            font-weight: bold;
+            background-color: red;
+            width: 80px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+        }
+        h2 {
+            font-weight: 900;
+            text-align: center;
+            margin: 10px;
+            padding: 20px;
+            font-size: 35pt;
+        }
+        p {
+            font-size: 18pt;
+            text-align: center;
+            margin: 15px;
+        }
+        #email {
+            width: 400px;
+            font-size: 13pt;
+            color: white;
+            background-color: rgba(53, 52, 52, 0.384);
+            height: 60px;
+            margin: 10px;
+            padding: 0px 10px;
+            border-radius: 5px;
+        }
+        #btn {
+            font-size: 17pt;
+            color: white;
+            font-weight: bold;
+            background-color: red;
+            width: 170px;
+            height: 60px;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>FakeFlix</h1>
+            <div id="div-btn">
+                <a href="login.htm"><input type="button" value="Entrar" id="btn-entrar"></a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div style="background-color: rgba(0, 0, 0, 0.182);">
+            <h2>Filmes, séries e muito mais, sem limites</h2>
+            <p>Assista onde quiser. Cancele quando quiser.</p>
+            <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+            <div style="text-align: center;">
+                <input type="email" name="" id="email" placeholder="Email">
+                <a href="login.htm"><input type="button" value="Vamos lá >" id="btn"></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
