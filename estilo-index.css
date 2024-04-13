@@ -4,25 +4,11 @@
     box-sizing: border-box;
 }
 
-body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.263);
-    z-index: -1;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url(bg.jpg) no-repeat center center fixed;
-    background-size: cover;
-    font-size: 1.125em;
+    background: url(bg.jpg);
+    font-size: 16px;
     color: white;
-    text-align: center;
-    padding: 20px;
 }
 
 header {
@@ -52,7 +38,7 @@ a {
     align-items: center; /* Alinha os itens verticalmente ao centro */
     margin-top: 10px;
     position: absolute; /* Permite o posicionamento absoluto */
-    top: 75px; /* Distância do topo da tela */
+    top: 40px; /* Distância do topo da tela */
     right: 100px; /* Distância da direita da tela */
 }
 
