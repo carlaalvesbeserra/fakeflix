@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url(/images/bg.jpg);
+    background: url(bg.jpg);
     font-size: 16px;
     color: white;
 }
