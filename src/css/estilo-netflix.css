@@ -1,0 +1,24 @@
+body {
+    background-color: #141414;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin-top: 200px;
+    font-size: 30pt;
+}
+img {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 5px;
+}
+#btn-perfis {
+    margin: 30px;
+    width: 170px;
+    height: 40px;
+    font-size: 12pt;
+    color: white;
+    background-color: #141414;
+    border: 2px solid white;
+}
