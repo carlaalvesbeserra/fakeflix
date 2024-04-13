@@ -2,12 +2,32 @@
     margin: 0px;
     padding: 0px;
 }
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.263);
+    z-index: -1;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: url(/images/bg.jpg);
     font-size: 18pt;
     color: white;
+    margin: 0px;
+    padding: 0px;
 }
+
+header {
+    height: 200px;
+    margin-bottom: 0px;
+}
+
 h1 {
     color: red;
     font-weight: bolder;
@@ -15,15 +35,18 @@ h1 {
     font-family: 'Bebas Neue', sans-serif; 
     padding: 20px 120px;
 }
-header {
-    background-color: rgba(0, 0, 0, 0.307);
-    height: 200px;
+
+a {
+    text-decoration: none;
+    color: red;
 }
+
 #div-btn {
     text-align: right;
     display: flexbox;
     margin: -60px 100px;
 }
+
 #btn-entrar {
     color: white;
     font-size: 12pt;
@@ -33,7 +56,17 @@ header {
     height: 30px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
+
+section {
+    margin-top: 0px;
+}
+
+#caixa {
+    height: 100%;
+}
+
 h2 {
     font-weight: 900;
     text-align: center;
@@ -41,11 +74,13 @@ h2 {
     padding: 20px;
     font-size: 35pt;
 }
+
 p {
     font-size: 18pt;
     text-align: center;
     margin: 15px;
 }
+
 #email {
     width: 400px;
     font-size: 13pt;
@@ -57,6 +92,7 @@ p {
     border-radius: 5px;
     border: solid 1px white;
 }
+
 #btn {
     font-size: 17pt;
     color: white;
@@ -66,4 +102,5 @@ p {
     height: 60px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
