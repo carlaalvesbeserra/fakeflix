@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+h1 {
+    color: red;
+    font-weight: bolder;
+    font-size: 3.2rem;
+    font-family: 'Bebas Neue', sans-serif; 
+    padding-left: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+#div-btn {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    margin-top: 10px;
+    position: absolute; /* Permite o posicionamento absoluto */
+    top: 40px; /* Distância do topo da tela */
+    right: 100px; /* Distância da direita da tela */
+}
+
+#btn-entrar {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: red;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.6rem;
+    margin: 15px 0;
+}
+
+.inputs {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#btn-proximo {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+
+/* Mídia Query para dispositivos menores */
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 4.0rem;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    h2 {
+        font-weight: 900;
+        font-size: 2rem;
+        margin: 40px 10px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin: 15px 0;
+    }
+
+    #div-btn {
+        margin: 50px 120px;
+    }
+
+    #btn-entrar {
+        width: auto;
+        padding: 5px 10px;
+    }
+}
