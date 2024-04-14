@@ -3,11 +3,11 @@ body {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px; /* Adicionei um espaçamento interno ao corpo */
+    padding: 20px;
 }
 
 h1 {
-    margin-top: 10vh; /* Usando uma unidade relativa para a margem superior */
+    margin-top: 10vh;
     font-size: 3em;
 }
 

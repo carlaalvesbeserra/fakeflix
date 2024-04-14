@@ -30,29 +30,8 @@ h1 {
 
 a {
     text-decoration: none;
-    color: red;
-}
-
-#div-btn {
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center; /* Alinha os itens verticalmente ao centro */
-    margin-top: 10px;
-    position: absolute; /* Permite o posicionamento absoluto */
-    top: 40px; /* Distância do topo da tela */
-    right: 100px; /* Distância da direita da tela */
-}
-
-#btn-entrar {
-    color: white;
-    font-size: 1rem;
+    color: black;
     font-weight: bold;
-    background-color: red;
-    width: 80px;
-    height: 30px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
 }
 
 section {
@@ -89,7 +68,7 @@ p {
 
 
 /* Mídia Query para dispositivos menores */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     header {
         height: auto;
         flex-direction: column;

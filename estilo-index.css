@@ -35,11 +35,11 @@ a {
 #div-btn {
     display: flex;
     justify-content: flex-end; 
-    align-items: center; /* Alinha os itens verticalmente ao centro */
+    align-items: center;
     margin-top: 10px;
-    position: absolute; /* Permite o posicionamento absoluto */
-    top: 40px; /* Distância do topo da tela */
-    right: 100px; /* Distância da direita da tela */
+    position: absolute;
+    top: 40px;
+    right: 100px;
 }
 
 #btn-entrar {
@@ -100,7 +100,7 @@ p {
 }
 
 /* Mídia Query para dispositivos menores */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     header {
         height: auto;
         flex-direction: column;
@@ -126,11 +126,12 @@ p {
     }
 
     #div-btn {
-        margin: 50px 120px;
+        justify-content: center;
+        right: 0;
+        position: static;
     }
 
     #btn-entrar {
-        width: auto;
-        padding: 5px 10px;
+        margin-top: 10px;
     }
 }
